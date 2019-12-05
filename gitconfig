@@ -8,5 +8,7 @@
         st = status
 [color]
         ui = true
+[core]
+        excludesfile = ~/.gitignore_global
 [github]
         user = shevchenkonik
