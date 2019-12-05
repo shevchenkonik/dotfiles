@@ -1,0 +1,12 @@
+[user]
+        name = Nik Shevchenko
+        email = shevchenko.nik@icloud.com
+[alias]
+        br = branch
+        ci = commit -m
+        co = checkout
+        st = status
+[color]
+        ui = true
+[github]
+        user = shevchenkonik
