@@ -3,6 +3,7 @@ hyper = { "cmd", "ctrl", "shift", "alt"}
 require "apps"
 require "window-management"
 require "music"
+require "pomodoro"
 
 -- Watcher
 function reloadConfig(files)
