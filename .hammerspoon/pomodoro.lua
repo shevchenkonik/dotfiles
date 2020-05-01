@@ -30,8 +30,7 @@ updateMenu = function()
     end
     menu:returnToMenuBar()
     local minutes = math.floor(timeLeft / 60)
-    local seconds = timeLeft - (minutes * 60)
-    local string = string.format("%02d:%02d 🍅", minutes, seconds)
+    local string = string.format("%02d:%02d 🍅", minutes)
     menu:setTitle(string)
 
     local items = {

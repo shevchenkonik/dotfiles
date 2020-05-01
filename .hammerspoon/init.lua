@@ -4,6 +4,8 @@ require "apps"
 require "window-management"
 require "music"
 require "pomodoro"
+require "wake-up"
+require "language"
 
 -- Watcher
 function reloadConfig(files)
