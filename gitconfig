@@ -2,10 +2,14 @@
         name = Nik Shevchenko
         email = shevchenko.nik@icloud.com
 [alias]
-        br = branch
+        st = status -sb
         ci = commit -m
+        br = branch
         co = checkout
-        st = status
+        cb = checkout -b
+        df = diff
+        dfa = diff HEAD
+        hard = reset --hard HEAD
 [color]
         ui = true
 [core]
