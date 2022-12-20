@@ -1,8 +1,8 @@
 hyper = { "cmd", "ctrl", "shift", "alt"}
 apps = {
-    w = "WebStorm",
+    w = "IntelliJ IDEA",
     f = "Firefox",
-    i = "iTerm",
+    i = "Wasp",
     t = "Telegram",
     m = "Mail",
     s = "Spotify"
@@ -11,7 +11,3 @@ apps = {
 require "watcher"
 require "apps"
 require "window-management"
-require "music"
-require "pomodoro"
-require "wake-up"
-require "language"
