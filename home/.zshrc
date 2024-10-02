@@ -18,6 +18,12 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+# Import NPM related aliases
+source .config/shell/apps/npm.sh
+
+# Import Git related aliases
+source .config/shell/apps/git.sh
+
 # Common Aliases
 alias c="clear"
 alias q="exit"
@@ -28,21 +34,6 @@ alias lsa="ls -lhFaG"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-
-# Git Aliases
-alias gti="git"
-alias g="git "
-alias gs="git status"
-alias ga="git add "
-alias gb="git branch "
-alias gp="git push "
-alias gc="git commit -m "
-
-# NPM Aliases
-alias n="npm "
-alias ni="npm install "
-alias nis="npm install --save-dev "
-alias nfuck="rm -rf node_modules && npm cache clean && npm install"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
