@@ -11,20 +11,38 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Navigation
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-
-# Typo fixing
-alias gti="git"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Common Aliases
+alias c="clear"
+alias q="exit"
+alias rmrf="rm -rf"
+alias lsa="ls -lhFaG"
+
+# Navigation Aliases
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# Git Aliases
+alias gti="git"
+alias g="git "
+alias gs="git status"
+alias ga="git add "
+alias gb="git branch "
+alias gp="git push "
+alias gc="git commit -m "
+
+# NPM Aliases
+alias n="npm "
+alias ni="npm install "
+alias nis="npm install --save-dev "
+alias nfuck="rm -rf node_modules && npm cache clean && npm install"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -90,6 +108,7 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
+  web-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -123,6 +142,14 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# pnpm
+export PNPM_HOME="/Users/nikshevchenko/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
 export PATH=$PATH:/Users/nikshevchenko/.spicetify
 export DENO_INSTALL="/Users/nikshevchenko/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
@@ -134,3 +161,6 @@ if [ -f '/Users/nikshevchenko/Downloads/google-cloud-sdk/path.zsh.inc' ]; then .
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/nikshevchenko/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/nikshevchenko/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Created by `pipx` on 2024-09-27 14:54:24
+export PATH="$PATH:/Users/nikshevchenko/.local/bin"
