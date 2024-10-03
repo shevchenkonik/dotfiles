@@ -7,3 +7,4 @@
 - git
 - .editorconfig
 - zsh
+- hammerspoon
