@@ -27,11 +27,6 @@ source .config/shell/apps/git.sh
 # Import common shortcut aliases
 source .config/shell/shortcuts.sh
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
   zsh-syntax-highlighting
