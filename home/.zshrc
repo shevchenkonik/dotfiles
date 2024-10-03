@@ -32,6 +32,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   web-search
+  zsh-you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
