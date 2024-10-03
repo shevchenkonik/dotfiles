@@ -1,6 +1,9 @@
 # dotfiles
 
-- powerlevel10k
+
+## Tools and Configurations
+
+powerlevel10k
 - aliases:
   - npm
   - git
