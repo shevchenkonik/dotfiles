@@ -27,16 +27,8 @@ source .config/shell/apps/npm.sh
 # Import Git related aliases
 source .config/shell/apps/git.sh
 
-# Common Aliases
-alias c="clear"
-alias q="exit"
-alias rmrf="rm -rf"
-alias lsa="ls -lhFaG"
-
-# Navigation Aliases
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
+# Import common shortcut aliases
+source .config/shell/shortcuts.sh
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
