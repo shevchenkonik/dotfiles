@@ -1,6 +1,7 @@
 [user]
-    name = Nik Shevchenko
-    email = shevchenko.nik@icloud.com
+    name = "Nik Shevchenko"
+    email = "shevchenko.nik@icloud.com"
+
 [alias]
     st = status -sb
     ci = commit -m
@@ -10,9 +11,17 @@
     df = diff
     dfa = diff HEAD
     hard = reset --hard HEAD
+
 [color]
-    ui = true
+    ui = "auto"
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
 [core]
     excludesfile = ~/.gitignore_global
+
 [github]
     user = shevchenkonik
