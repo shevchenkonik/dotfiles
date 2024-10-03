@@ -1,16 +1,18 @@
 hyper = { "cmd", "ctrl", "shift", "alt"}
+
 apps = {
-    WEBSTORM = "Webstorm",
-    CHROME = "Google Chrome",
-    ITERM = "iTerm",
-    TELEGRAM = "Telegram",
-    MAIL = "Mail",
-    SPOTIFY = "Spotify",
-    THINGS = "Things",
-    OBSIDIAN = "Obsidian",
-    ONEPASSWORD = "1Password"
+    q = "Webstorm",
+    w = "iTerm",
+    e = "Google Chrome",
+
+    a = "Telegram",
+    s = "Spotify",
+    d = "Mail",
+
+    z = "Obsidian",
+    c = "Calendar",
+    x = "Finder"
 }
 
 require "watcher"
 require "apps"
-require "window-management"
