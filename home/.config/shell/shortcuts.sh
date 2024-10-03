@@ -3,6 +3,7 @@ alias c="clear"
 alias q="exit"
 alias rmrf="rm -rf"
 alias lsa="ls -lhFaG"
+alias dev="cd ~/Projects"
 
 # Navigation Aliases
 alias ..="cd .."
