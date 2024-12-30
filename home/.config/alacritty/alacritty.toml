@@ -1,0 +1,54 @@
+# ENV SECTION STARTS
+[env]
+TERM = "alacritty"
+# ENV SECTION ENDS
+
+# GENERAL SECTION STARTS
+[general]
+live_config_reload = true
+# GENERAL SECTION ENDS
+
+# WINDOW SECTION STARTS
+[window]
+opacity = 1.0
+blur = true
+padding = { x = 20, y = 20 }
+startup_mode = "Maximized"
+decorations = "Buttonless"
+# WINDOW SECTION ENDS
+
+# FONT SECTION STARTS
+[font]
+normal = { family = "MesloLGS NF", style = "Regular" }
+bold = { family = "MesloLGS NF", style = "Bold" }
+italic = { family = "MesloLGS NF", style = "Italic" }
+bold_italic = { family = "MesloLGS NF", style = "Bold Italic" }
+
+size = 14.0
+# FONT SECTION ENDS
+
+# COLORS SECTION STARTS
+[colors]
+[colors.primary]
+background = "#272b30"
+
+[colors.normal]
+black = "#272b30"
+red = "#cc6666"
+green = "#bdb968"
+yellow = "#f0c674"
+blue = "#81a2be"
+magenta = "#b08cba"
+cyan = "#7fb2c8"
+white = "#afb4c3"
+# COLORS SECTION ENDS
+
+# CURSOR SECTION STARTS
+[cursor]
+style.shape = "Beam"
+style.blinking = "On"
+# CURSOR SECTION ENDS
+
+# MOUSE SECTION STARTS
+[mouse]
+hide_when_typing = true
