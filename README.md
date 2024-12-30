@@ -9,11 +9,13 @@ ln -s ~/Projects/dotfiles/home/.config/shell ~/.config
 
 ## Tools and Configurations
 
-powerlevel10k
+- alacritty
+- zellij
+- zsh
 - aliases:
   - npm
   - git
-- git
 - .editorconfig
-- zsh
+- powerlevel10k
+- starship
 - hammerspoon
