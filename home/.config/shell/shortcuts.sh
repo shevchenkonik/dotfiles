@@ -2,8 +2,14 @@
 alias c="clear"
 alias q="exit"
 alias rmrf="rm -rf"
+alias ls="eza --icons=always"
 alias lsa="ls -lhFaG"
 alias dev="cd ~/Projects"
+
+alias lls='eza -lh --group-directories-first --icons --hyperlink'
+alias llsa='lls -a'
+alias llt='eza --tree --level=2 --long --icons --git'
+alias llta='llt -a'
 
 # Navigation Aliases
 alias ..="cd .."
