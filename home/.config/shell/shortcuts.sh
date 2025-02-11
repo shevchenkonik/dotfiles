@@ -16,6 +16,9 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+# Common Aliases
+alias day="/usr/libexec/corebrightnessdiag nightshift-internal | awk '/sunrise|sunset/ {print $4}'"
+
 # Creates a new directory and enters it
 function mkd() {
     mkdir -p $@ && cd $_
