@@ -2,8 +2,8 @@ hyper = { "cmd", "ctrl", "shift", "alt"}
 
 apps = {
     q = "Webstorm",
-    w = "iTerm",
-    e = "Google Chrome",
+    w = "Alacritty",
+    e = "Zen Browser",
 
     a = "Telegram",
     s = "Spotify",
