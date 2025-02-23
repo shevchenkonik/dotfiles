@@ -6,6 +6,8 @@ default_mode "normal"
 
 copy_on_select true
 
+theme "catppuccin-frappe"
+
 keybinds clear-defaults=true {
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
