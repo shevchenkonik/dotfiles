@@ -27,12 +27,6 @@ bold_italic = { family = "MesloLGS NF", style = "Bold Italic" }
 size = 14.0
 # FONT SECTION ENDS
 
-# SHELL SECTION STARTS
-[terminal.shell]
-program = ".cargo/bin/zellij"
-args = ["--session", "default"]
-# SHELL SECTION ENDS
-
 # COLORS SECTION STARTS
 [colors]
 [colors.primary]
