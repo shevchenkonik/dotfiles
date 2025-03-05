@@ -31,6 +31,8 @@ source ~/.config/shell/apps/git.sh
 # Import common shortcut aliases
 source ~/.config/shell/shortcuts.sh
 
+source ~/.config/shell/myip.sh
+
 source ~/.zprofile
 
 source ~/.config/shell/apps/starship.sh
