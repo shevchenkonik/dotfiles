@@ -11,3 +11,5 @@ cask "obsidian"
 cask "dash" # Documentation reader
 cask "bruno" # Postman alternative
 cask "jordanbaird-ice" # Hides menu bar icons
+cask "zoom" # Video conferencing
+cask "raycast"
