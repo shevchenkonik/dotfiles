@@ -26,3 +26,4 @@ cask "jetbrains-toolbox" # IDE
 cask "karabiner-elements" # Keyboard shortcuts
 cask "dash" # Documentation reader
 
+cask "outline"
