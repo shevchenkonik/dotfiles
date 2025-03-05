@@ -52,3 +52,10 @@ style.blinking = "On"
 # MOUSE SECTION STARTS
 [mouse]
 hide_when_typing = true
+# MOUSE SECTION ENDS
+
+# SHELL SECTION STARTS
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-c", "exec zellij"]
+# SHELL SECTION ENDS
