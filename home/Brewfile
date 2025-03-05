@@ -1,0 +1,13 @@
+# CLI apps
+brew "eza" # `ls` replacement
+brew "git"
+
+# GUI apps
+cask "1password" # Password manager
+cask "numi" # Calculator
+cask "telegram" # Messenger
+cask "notion"
+cask "obsidian"
+cask "dash" # Documentation reader
+cask "bruno" # Postman alternative
+cask "jordanbaird-ice" # Hides menu bar icons
