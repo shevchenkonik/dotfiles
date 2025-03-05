@@ -1,11 +1,17 @@
 layout {
+    tab name="status" {
+        pane size="99%" name="system pane"
+
+        pane size="1%" borderless=true {
+            plugin location="zjstatus"
+        }
+    }
+
     tab name="terminal" {
         pane split_direction="vertical" {
             pane name="project pane"
             pane name="docker pane"
         }
-
-        pane size="30%" name="system pane"
 
         pane size=1 borderless=true {
             plugin location="zjstatus"
