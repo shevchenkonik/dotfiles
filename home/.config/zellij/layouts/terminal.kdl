@@ -1,8 +1,8 @@
 layout {
     tab name="status" {
-        pane size="99%" name="system pane"
+        pane name="system pane"
 
-        pane size="1%" borderless=true {
+        pane size="1" borderless=true {
             plugin location="zjstatus"
         }
     }
