@@ -9,6 +9,7 @@ brew 'yarn'
 brew '1password-cli'
 brew 'mas' # Mac App Store manager
 brew 'btop' # Process manager
+brew "zsh"
 
 # GUI apps
 cask "1password" # Password manager
@@ -18,9 +19,11 @@ cask "jordanbaird-ice" # Hides menu bar icons
 cask "raycast" # App launcher
 cask "obsidian" # Markdown editor
 cask "zen-browser" # Browser
-cask 'firefox' # Browser
+cask "firefox" # Browser
 cask "zed" # Editor
-cask 'httpie' # HTTP client
+cask "httpie" # HTTP client
+cask "alacritty" # Terminal
+cask "postman" # API client
 
 cask "telegram" # Messenger
 cask "zoom" # Video conferencing
