@@ -4,15 +4,17 @@ brew "git"
 brew "curl"
 brew "starship"
 brew "zellij"
-brew 'httpie'
-brew 'yarn'
-brew '1password-cli'
-brew 'mas' # Mac App Store manager
-brew 'btop' # Process manager
+brew "httpie"
+brew "yarn"
+brew "1password-cli"
+brew "mas" # Mac App Store manager
+brew "btop" # Process manager
 brew "zsh"
+brew "docker"
 
 # GUI apps
 cask "1password" # Password manager
+cask "bitwarden" # Password manager
 
 cask "numi" # Calculator
 cask "jordanbaird-ice" # Hides menu bar icons
@@ -28,9 +30,12 @@ cask "postman" # API client
 cask "telegram" # Messenger
 cask "zoom" # Video conferencing
 cask "spotify" # Music
+cask "deepl"
 
 cask "orbstack"
 cask "docker"
+
+cask "font-fira-code-nerd-font"
 
 cask "jetbrains-toolbox" # IDE
 cask "karabiner-elements" # Keyboard shortcuts
@@ -39,4 +44,4 @@ cask "dash" # Documentation reader
 cask "outline"
 
 # Mac App Store apps
-mas 'Things', id: 904280696
+mas "Things", id: 904280696
