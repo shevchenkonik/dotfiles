@@ -1,3 +1,5 @@
+# Config: https://alacritty.org/config-alacritty.html
+
 # ENV SECTION STARTS
 [env]
 TERM = "alacritty"
@@ -59,3 +61,8 @@ hide_when_typing = true
 program = "/bin/zsh"
 args = ["-c", "exec zellij"]
 # SHELL SECTION ENDS
+
+# SELECTION SECTION STARTS
+[selection]
+save_to_clipboard = true
+# SELECTION SECTION ENDS
