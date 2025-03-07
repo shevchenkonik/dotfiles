@@ -4,7 +4,7 @@ default_mode "normal"
 
 copy_on_select true
 
-theme "catppuccin-frappe"
+theme "nord"
 
 keybinds clear-defaults=true {
     locked {
