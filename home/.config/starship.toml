@@ -1,5 +1,8 @@
-[nix_shell]
-disabled = true
-
 [gcloud]
 disabled = true
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
