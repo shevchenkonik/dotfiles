@@ -1,12 +1,23 @@
 layout {
-    tab name="status" {
+    tab name="💻 general" {
         pane size=1 borderless=true {
             plugin location="zjstatus"
         }
 
-        pane command="btop" start_suspended=true
-
         pane
+
+        pane size=1 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+
+    tab name="🩺 health" {
+        pane size=1 borderless=true {
+            plugin location="zjstatus"
+        }
+
+        pane command="btop" name="btop" start_suspended=true
+
         pane size=1 borderless=true {
             plugin location="zellij:status-bar"
         }

@@ -59,7 +59,7 @@ hide_when_typing = true
 # SHELL SECTION STARTS
 [terminal.shell]
 program = "/bin/zsh"
-args = ["-c", "exec zellij"]
+args = ["--login", "-c", "exec zellij"]
 # SHELL SECTION ENDS
 
 # SELECTION SECTION STARTS
