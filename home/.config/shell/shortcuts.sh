@@ -13,6 +13,9 @@ alias llt='eza --tree --level=2 --long --icons --git'
 alias llta='llt -a'
 alias l.="eza -a | grep -E '^\.'"
 
+# Copy SSH public key to pasteboard
+alias cssh="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> SSH Public Key copied to pasteboard'"
+
 # Navigation Aliases
 alias ..="cd .."
 alias ...="cd ../.."

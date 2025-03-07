@@ -1,3 +1,5 @@
+SCREENSHOTS_FOLDER="${HOME}/Screenshots"
+
 ###############################################################################
 # Energy saving                                                               #
 ###############################################################################
@@ -13,7 +15,8 @@ sudo pmset -a displaysleep 15
 defaults write com.apple.screencapture type -string "png"
 
 # Save screenshots to the desktop
-defaults write com.apple.screencapture location -string "${HOME}/Documents/Screenshots"
+mkdir -p "${SCREENSHOTS_FOLDER}"
+defaults write com.apple.screencapture location -string "${SCREENSHOTS_FOLDER}"
 
 ###############################################################################
 # Finder                                                                      #
@@ -41,6 +44,8 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
+# Finder: show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 ###############################################################################
 # Mail                                                                        #
@@ -55,3 +60,16 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 # Disable inline attachments (just show the icons)
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
+
+###############################################################################
+# Menu                                                                        #
+###############################################################################
+
+# Show battery percentage in menu bar
+defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+# Do not display recent apps in the Dock
+defaults write com.apple.dock "show-recents" -bool false

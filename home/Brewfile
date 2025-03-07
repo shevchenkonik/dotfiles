@@ -11,6 +11,7 @@ brew "mas" # Mac App Store manager
 brew "btop" # Process manager
 brew "zsh"
 brew "docker"
+brew "dockutil"
 
 # GUI apps
 cask "1password" # Password manager
