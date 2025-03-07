@@ -8,6 +8,7 @@ brew 'httpie'
 brew 'yarn'
 brew '1password-cli'
 brew 'mas' # Mac App Store manager
+brew 'btop' # Process manager
 
 # GUI apps
 cask "1password" # Password manager
