@@ -12,11 +12,19 @@ brew "btop" # Process manager
 brew "zsh"
 brew "docker"
 brew "dockutil"
+brew "tldr"
+
+# Fonts
+cask "font-jetbrains-mono-nerd-font"
+cask "font-space-mono-nerd-font"
+cask "font-symbols-only-nerd-font"
+cask "font-iosevka-term-nerd-font"
+cask "font-fira-code-nerd-font"
+cask "sf-symbols"
 
 # GUI apps
 cask "1password" # Password manager
 cask "bitwarden" # Password manager
-
 cask "numi" # Calculator
 cask "jordanbaird-ice" # Hides menu bar icons
 cask "raycast" # App launcher
@@ -27,22 +35,16 @@ cask "zed" # Editor
 cask "httpie" # HTTP client
 cask "alacritty" # Terminal
 cask "postman" # API client
-
 cask "telegram" # Messenger
 cask "zoom" # Video conferencing
 cask "spotify" # Music
-cask "deepl"
-
+cask "deepl" # Translator
 cask "orbstack"
 cask "docker"
-
-cask "font-fira-code-nerd-font"
-
 cask "jetbrains-toolbox" # IDE
 cask "karabiner-elements" # Keyboard shortcuts
 cask "dash" # Documentation reader
-
-cask "outline"
+cask "outline" # VPN client
 
 # Mac App Store apps
 mas "Things", id: 904280696
