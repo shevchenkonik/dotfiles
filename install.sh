@@ -1,36 +1,40 @@
 #!/bin/bash
 
-printBottomBorder() {
-    echo "---------------------------------------------------------------------------"
-}
-
-printTopBorder() {
-    printf "\n---------------------------------------------------------------------------\n"
-}
+HOME_CONFIG="$HOME/.config"
+HOME_DEV="$HOME/dev"
+HOME_PROJECTS="$HOME/projects"
+HOME_DOCS="$HOME/docs"
 
 setupDirectories() {
-  printTopBorder
-  echo "Setting up directories:"
+  echo
+  echo "● ● Setting up directories"
 
-  mkdir -p "$HOME/dev"
+  mkdir -p "$HOME_DEV"
 
-  if [ -d "$HOME/dev" ]; then
-    echo "dev directory successfully created"
+  if [ -d "$HOME_DEV" ]; then
+    echo "● ○ $HOME_DEV directory successfully created"
   fi
 
-  mkdir -p "$HOME/projects"
+  mkdir -p "$HOME_PROJECTS"
 
-  if [ -d "$HOME/projects" ]; then
-      echo "projects directory successfully created"
+  if [ -d "$HOME_PROJECTS" ]; then
+      echo "● ○ $HOME_PROJECTS directory successfully created"
   fi
 
-  mkdir -p "$HOME/docs"
+  mkdir -p "$HOME_DOCS"
 
-  if [ -d "$HOME/docs" ]; then
-      echo "docs directory successfully created"
+  if [ -d "$HOME_DOCS" ]; then
+      echo "● ○ $HOME_DOCS directory successfully created"
   fi
 
-  printBottomBorder
+  mkdir -p "$HOME_CONFIG"
+
+  if [ -d "$HOME_CONFIG" ]; then
+      echo "● ○ $HOME_CONFIG directory successfully created"
+  fi
+
+  echo "● ● Directories successfully created"
+  echo
 }
 
 setup() {
