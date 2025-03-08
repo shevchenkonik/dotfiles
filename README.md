@@ -1,6 +1,11 @@
-# dotfiles
+<h1 align="center">dotfiles</h1>
+<p align="center">
+  <b>automated configurations</b><br/>
+  <sub>OS X configuration</sub>
+</p>
+<br />
 
-## Manual Installation
+## Symlink
 
 ```shell
 ln -s ~/Projects/dotfiles/home/hammerspoon ~/.hammerspoon
