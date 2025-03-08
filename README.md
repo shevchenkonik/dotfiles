@@ -1,4 +1,4 @@
-<h1 align="center">○ ○ ○ dotfiles ○ ○ ○</h1>
+<h1 align="center">● ○ dotfiles</h1>
 <p align="center">
   <b>automated configurations</b><br/>
   <sub>compatible with macOS</sub>
