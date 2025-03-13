@@ -17,3 +17,4 @@ apps = {
 require "watcher"
 require "apps"
 require "grid"
+require "language"
