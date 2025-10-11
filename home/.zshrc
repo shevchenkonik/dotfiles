@@ -36,3 +36,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+
+eval "$(zoxide init zsh)"
+alias lzd='lazydocker'
