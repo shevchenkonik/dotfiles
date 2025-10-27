@@ -1,39 +1,39 @@
 layout {
-    tab name="general" {
+    tab name="Docker" {
         pane size=1 borderless=true {
             plugin location="zjstatus"
         }
 
-        pane
+        pane command="lazydocker" name="LazyDocker" start_suspended=true
 
         pane size=1 borderless=true {
             plugin location="zellij:status-bar"
         }
     }
 
-    tab name="system" {
+    tab name="System" {
         pane size=1 borderless=true {
             plugin location="zjstatus"
         }
 
-        pane command="btop" name="btop" start_suspended=true
+        pane command="btop" name="Btop" start_suspended=true
 
         pane size=1 borderless=true {
             plugin location="zellij:status-bar"
         }
     }
 
-    tab name="project" {
+    tab name="Projects" {
         pane size=1 borderless=true {
             plugin location="zjstatus"
         }
 
         pane split_direction="vertical" {
-            pane name="project pane"
+            pane name="Pane 1"
 
             pane split_direction="horizontal" {
-                pane name="docker pane"
-                pane name="test pane"
+                pane name="Pane 2"
+                pane name="Pane 3"
             }
         }
 
