@@ -1,0 +1,35 @@
+# WINDOW SETTINGS
+theme = TokyoNight Night
+background-opacity = 1.0
+background-blur = true
+window-padding-x = 20
+window-padding-y = 20
+window-decoration = none
+window-save-state = always
+macos-icon = blueprint
+
+# FONT SETTINGS
+font-family = "MesloLGS NF"
+font-style = Regular
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = Bold Italic
+font-size = 14
+font-thicken = true
+adjust-cell-height = 10%
+adjust-box-thickness = -3
+
+# CURSOR SETTINGS
+cursor-style = block
+cursor-style-blink = false
+
+# MOUSE SETTINGS
+mouse-hide-while-typing = true
+
+# SHELL SETTINGS
+command = /bin/zsh --login -c "exec zellij"
+
+# SELECTION SETTINGS
+copy-on-select = true
+clipboard-read = allow
+clipboard-write = allow
