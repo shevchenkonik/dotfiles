@@ -36,8 +36,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export DOCKER_HOST="unix://$HOME/.docker/run/docker.sock"
 
-[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
-
 eval "$(zoxide init zsh)"
 alias lzd='lazydocker'
 
@@ -46,3 +44,5 @@ fpath=(/Users/nikshevchenko/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+eval "$(/Users/nikshevchenko/.local/bin/mise activate zsh)"
