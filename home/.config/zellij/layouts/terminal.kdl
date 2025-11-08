@@ -1,4 +1,23 @@
 layout {
+    tab name="Projects" {
+            pane size=1 borderless=true {
+                plugin location="zjstatus"
+            }
+
+            pane split_direction="vertical" {
+                pane name="Pane 1"
+
+                pane split_direction="horizontal" {
+                    pane name="Pane 2"
+                    pane name="Pane 3"
+                }
+            }
+
+            pane size=1 borderless=true {
+                plugin location="zellij:status-bar"
+            }
+        }
+
     tab name="Docker" {
         pane size=1 borderless=true {
             plugin location="zjstatus"
@@ -17,25 +36,6 @@ layout {
         }
 
         pane command="btop" name="Btop" start_suspended=true
-
-        pane size=1 borderless=true {
-            plugin location="zellij:status-bar"
-        }
-    }
-
-    tab name="Projects" {
-        pane size=1 borderless=true {
-            plugin location="zjstatus"
-        }
-
-        pane split_direction="vertical" {
-            pane name="Pane 1"
-
-            pane split_direction="horizontal" {
-                pane name="Pane 2"
-                pane name="Pane 3"
-            }
-        }
 
         pane size=1 borderless=true {
             plugin location="zellij:status-bar"
