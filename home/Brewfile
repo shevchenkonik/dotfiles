@@ -14,6 +14,7 @@ brew "docker"
 brew "dockutil"
 brew "tldr"
 brew "mise"
+brew "neovim"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
@@ -47,6 +48,7 @@ cask "karabiner-elements" # Keyboard shortcuts
 cask "dash" # Documentation reader
 cask "outline" # VPN client
 cask "ghostty"
+cask "claude-code"
 
 # Mac App Store apps
 mas "Things", id: 904280696
